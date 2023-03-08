@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Api</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/spinner.css">
+    <link rel="stylesheet" href="Css/style.css">
+
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <img class="w-100 h-25"  src="imgs/wraper.png" alt="">
+  </header>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-4 m-auto p-1   ">
+    <div class="container-md ">
+      <h5 class="navbar-brand text-white" href="#">
+        <img class="w-100" src="imgs/logo-sm.png" alt="logo photo">
+        GAME REVIEWS
+      </h5>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+          <li class="nav-item">
+            <a id="item" class="nav-link active" aria-current="page" href="#" value="mmorpg">MMORPG</a>
+          </li>
+          <li class="nav-item">
+            <a id="item" class="nav-link " href="#" value="shooter">SHOOTER</a>
+          </li>
+          <li class="nav-item">
+            <a id="item" class="nav-link " aria-current="page" href="#" value="sailing">SAILING</a>
+          </li>
+          <li class="nav-item">
+            <a id="item" class="nav-link" href="#" value="permadeath">PERMADEATH</a>
+          </li>
+          <li class="nav-item">
+            <a id="item" class="nav-link " aria-current="page" href="#" value="superhero">SUPERHERO</a>
+          </li>
+          <li class="nav-item">
+            <a id="item" class="nav-link" href="#" value="pixel">PIXEL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- spinner -->
+    <div class="loading   d-none">
+      <span class="loader" ></span>
+    </div>
+    
+  <!--main  -->
+  <main class="container my-5 home d-block vh-100"> 
+    <div class="row">
+    </div>
+  </main>
+
+  <!-- details -->
+  <div class="details vw-100 vh-100 d-none">
+    <div class="container">
+      <header class="hstack justify-content-between py-4">
+        <h1>Details Game</h1>
+        <button  class="btn-close btn-close-white">
+        </button> 
+      </header>
+      <div class="row" id="detailsContent">
+      </div>
+    </div>
+  </div>
+    
+    
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js" type="module"></script>
+</body>
+</html>
