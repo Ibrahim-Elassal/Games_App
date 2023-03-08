@@ -55,7 +55,7 @@ export class Home {
             temp +=`
             <div class=" col-12  col-md-4  col-lg-3  my-3 col" data-id="${response[j].id}" >
             <div class="card-box ">
-            <div class="card border-0 m-3 pb-5" >
+            <div class="card border-0 m-3 " >
                 <img src="${response[j].thumbnail}" class="card-img-top" alt="...">
                 <div class="card-body p-0 text-center">
                 <div class="d-flex justify-content-between mt-3">
