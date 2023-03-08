@@ -53,7 +53,7 @@ export class Home {
         let temp = `` ;
         for (let j = 0; j < response.length; j++) {
             temp +=`
-            <div class=" col-12  col-md-4  col-lg-3  my-3 col" data-id="${response[j].id}" >
+            <div class=" col-12  col-md-4  col-xxl-3  my-3 col" data-id="${response[j].id}" >
             <div class="card-box ">
             <div class="card border-0 m-3 " >
                 <img src="${response[j].thumbnail}" class="card-img-top" alt="...">
